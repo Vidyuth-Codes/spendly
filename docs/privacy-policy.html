@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spendly Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --text: #12141a; --muted: #5b6270; --line: #e1e4e9; --accent: #4d7c0f; --todo: #fff3bf; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0a0c10; --text: #f2f4f8; --muted: #8c96a8; --line: #232a36; --accent: #c6ff3d; --todo: #4a3d00; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .todo { background: var(--todo); padding: 0 4px; border-radius: 4px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Spendly Privacy Policy</h1>
+  <p class="muted">Effective <span class="todo">[DATE, e.g. 21 September 2026]</span></p>
+
+  <p>Spendly is a personal budgeting app. It helps you record spending and income, set budgets, and save toward goals. This policy explains what information the app handles, why, and the choices you have. In short: we keep only what you give us to run the app, we do not sell it, and you can delete all of it inside the app at any time.</p>
+
+  <h2>Who we are</h2>
+  <p>Spendly is developed by <span class="todo">[YOUR NAME]</span>. For any privacy question, write to <span class="todo">[YOUR CONTACT EMAIL]</span>.</p>
+
+  <h2>What we collect</h2>
+  <table>
+    <tr><th>Information</th><th>Why we need it</th></tr>
+    <tr><td><strong>Account details:</strong> your email address and the name you choose at sign-up.</td><td>To create your account, sign you in, and greet you by name.</td></tr>
+    <tr><td><strong>Your password.</strong> It is stored only as a one-way hash by our authentication provider. We can never read it.</td><td>To sign you in securely.</td></tr>
+    <tr><td><strong>Financial information you enter or import:</strong> transactions (amount, date, category, merchant or payee, payment method, note), categories, budgets, income sources, savings goals and contributions, and your carry-forward setting.</td><td>To provide the app's features: totals, budgets, charts, and goal progress.</td></tr>
+    <tr><td><strong>Receipt photos</strong> you choose to attach to a transaction. They are stored privately in your account and only you can view them.</td><td>To let you keep a receipt with the transaction it belongs to.</td></tr>
+    <tr><td><strong>Tags, recurring expenses, and lent/borrowed entries</strong> (names you type and amounts).</td><td>To group spending, log repeating bills, and track money between you and friends.</td></tr>
+    <tr><td><strong>Merchant rules:</strong> the merchant-to-category choices you make while importing a statement.</td><td>To categorize your future imports automatically.</td></tr>
+  </table>
+  <p>The app does <strong>not</strong> connect to your bank or payment apps, does not read your SMS messages or notifications, and does not access your contacts, location, or microphone. It uses the camera or your photo library only when you choose to attach a receipt. Budget alerts are local notifications created on your phone; no notification content is sent anywhere.</p>
+
+  <h2>Files you import</h2>
+  <p>When you import a CSV file, it is read and interpreted on your phone. Only the transactions you review and confirm are saved to your account. The file itself is not uploaded.</p>
+
+  <h2>Stored on your device</h2>
+  <p>Your theme choice (light, dark, or system), your sign-in session, and the column mapping you confirmed for an imported statement layout are stored on your phone so the app works smoothly. Signing out or deleting the app removes them.</p>
+
+  <h2>Where your data is stored</h2>
+  <p>Your data is stored with <a href="https://supabase.com">Supabase</a>, our database and authentication provider, in the <span class="todo">[REGION, e.g. Asia Pacific (Mumbai)]</span> region. Data is encrypted in transit. Each account can only access its own rows: access rules enforced by the database prevent one user from reading another user's data.</p>
+
+  <h2>Who we share it with</h2>
+  <p>We do not sell your data, and we do not share it with advertisers or data brokers. The app contains no advertising and no third-party analytics or tracking. Supabase processes your data on our behalf only to host it. We may disclose information if required by law.</p>
+
+  <h2>How long we keep it</h2>
+  <p>We keep your data until you delete your account.</p>
+
+  <h2>Your choices and rights</h2>
+  <ul>
+    <li><strong>Export:</strong> in <em>Settings &rarr; Export transactions</em> you can download your transactions as a CSV file.</li>
+    <li><strong>Delete:</strong> in <em>Settings &rarr; Delete account</em> you can permanently delete your account and everything stored in it. This happens immediately and cannot be undone.</li>
+    <li><strong>Access or correct:</strong> you can view and edit your information inside the app. You can also email us to ask for a copy or a correction.</li>
+    <li>If you cannot use the app to delete your account, email us from your registered address and we will delete it.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Spendly is not directed at children under 13, and we do not knowingly collect their information.</p>
+
+  <h2>Security</h2>
+  <p>We use industry-standard protections: encrypted connections, hashed passwords, and per-user access rules on the database. No system is perfectly secure, so please choose a strong, unique password.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we change this policy we will update the date above, and for significant changes we will tell you in the app.</p>
+</main>
+</body>
+</html>
